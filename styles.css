@@ -1,6 +1,10 @@
 
 /*need to add button for font size change */
 
+
+html {
+    background-color: #1c235e;
+}
 body {
     font-family: ubuntu, verdana, helvtetica, sens-serif;
     background-color: #ffffff;
@@ -12,7 +16,7 @@ body {
 }
 
 li {
-    font-size: 140%;
+    font-size: 110%;
     text-decoration: none;
 }
 
@@ -66,6 +70,7 @@ div #TOC > ul:before, nav#TOC > ul:before {
     font-size: 150%;
     content: "Table of Contents";
     font-weight: bold;
+    font-variant: small-caps;
 }
 
 .title {
@@ -75,8 +80,8 @@ div #TOC > ul:before, nav#TOC > ul:before {
     font-weight: bold;
     font-variant: small-caps;
     padding: 0.5em;
-    background-color: #ebe5b7;
-    border: 0.1em solid #ad5f7d;
+    background-color: #ddcc99;
+    border: 0.1em solid #ee6666;
     border-radius: 0.9em 0.9em;
     text-align: center;
     text-indent:0;
