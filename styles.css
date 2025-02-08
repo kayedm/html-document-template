@@ -1,0 +1,69 @@
+
+/*need to add button for font size change */
+
+body {
+    font-family: ubuntu, verdana, helvtetica, sens-serif;
+    background-color: #ffffff;
+    max-width: 55em;
+    padding: 0.5em;
+    margin: 0.5em auto;
+    border: 0.25em solid #000;
+    border-radius: 2em;
+}
+
+li {
+    font-size: 140%;
+    text-decoration: none;
+}
+
+
+#TOC ul{
+    color: rgb(0, 0, 0);
+    background-color: #dddddd;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+#TOC {
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+#TOC > ul {
+    color:black;
+    background-color: #dddddd;
+    border: 0.25em solid #bbbbbb;
+    border-radius: 0.9em;
+}
+
+/* sets up hanging indents on TOC */
+
+#TOC li { text-indent: -1.2em}
+#TOC li li { text-indent: -1.7em}
+#TOC li li li { text-indent: -2.7em}
+
+
+#TOC .toc-number {
+    margin-right: 0.3em;
+    font-weight: bold;
+}
+
+#TOC a {
+    text-decoration: none;
+}
+
+#TOC a:hover {
+    color:black;
+    background-color: #eeeeff;
+    outline: solid 0.1em;
+}
+
+/* insert heading TOC */
+
+div #TOC > ul:before, nav#TOC > ul:before {
+    margin-left: -4%;
+    font-size: 150%;
+    content: "Table of Contents";
+    font-weight: bold;
+}
