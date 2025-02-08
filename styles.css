@@ -67,3 +67,21 @@ div #TOC > ul:before, nav#TOC > ul:before {
     content: "Table of Contents";
     font-weight: bold;
 }
+
+.title {
+    font-size: 170%;
+    margin: 0 0 0.3em 0;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    font-variant: small-caps;
+    padding: 0.5em;
+    background-color: #ebe5b7;
+    border: 0.1em solid #ad5f7d;
+    border-radius: 0.9em 0.9em;
+    text-align: center;
+    text-indent:0;
+}
+
+h1 {
+    color: #990000
+}
