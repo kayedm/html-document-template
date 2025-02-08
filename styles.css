@@ -3,7 +3,7 @@
 
 
 html {
-    background-color: #1966BE;
+    background-color: #c6d3e2;
 }
 body {
     font-family: ubuntu, verdana, helvtetica, sens-serif;
@@ -74,14 +74,14 @@ div #TOC > ul:before, nav#TOC > ul:before {
 }
 
 .title {
-    font-size: 170%;
+    font-size: 180%;
     margin: 0 0 0.3em 0;
     letter-spacing: 0.2em;
     font-weight: bold;
     font-variant: small-caps;
     padding: 0.5em;
     background-color: #d4c494;
-    border: 0.1em solid #8a8b4d;
+    border: 0.1em solid #b99e00dc;
     border-radius: 0.9em 0.9em;
     text-align: center;
     text-indent:0;
