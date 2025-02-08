@@ -16,7 +16,7 @@ body {
 }
 
 li {
-    font-size: 110%;
+    font-size: 100%;
     text-decoration: none;
 }
 
@@ -81,7 +81,7 @@ div #TOC > ul:before, nav#TOC > ul:before {
     font-variant: small-caps;
     padding: 0.5em;
     background-color: #d4c494;
-    border: 0.1em solid #7f8046;
+    border: 0.1em solid #8a8b4d;
     border-radius: 0.9em 0.9em;
     text-align: center;
     text-indent:0;
