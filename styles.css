@@ -3,7 +3,7 @@
 
 
 html {
-    background-color: #1c235e;
+    background-color: #1966BE;
 }
 body {
     font-family: ubuntu, verdana, helvtetica, sens-serif;
@@ -80,13 +80,52 @@ div #TOC > ul:before, nav#TOC > ul:before {
     font-weight: bold;
     font-variant: small-caps;
     padding: 0.5em;
-    background-color: #ddcc99;
-    border: 0.1em solid #ee6666;
+    background-color: #d4c494;
+    border: 0.1em solid #7f8046;
     border-radius: 0.9em 0.9em;
     text-align: center;
     text-indent:0;
 }
 
 h1 {
-    color: #990000
+    color: #990000;
+    font-size: 150%;
+    background-color: #e9d8a4;
+    border: 0.1em solid #dbc963;
+    border-radius: 0.4em;
+    padding: 0.1em;
+    padding-left: 1.6em;
+    text-indent: -1.1em;
+    clear: both;
+}
+
+h2 {
+
+    color: #660000;
+    font-size: 120%;
+    background-color: #eeddaa;
+    border: 0.1em solid #ddcc66;
+    border-radius: 0.4em;
+    margin-left: 0.8em;
+    padding-left: 2.3em;
+    text-indent: -2.0em;
+    clear: both;
+
+}
+
+blockquote {
+    color: black;
+    background-color: #eeeecc;
+    border: 0.1em solid #e3e3b3;
+    border-radius: 0.4em;
+    font-style: italic;
+    padding-top: 0em;
+    padding-left: 0.5em;
+    padding-right: 0.3em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header-section-number {
+    margin-right: 0.5em;
 }
