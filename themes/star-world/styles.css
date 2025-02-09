@@ -1,0 +1,131 @@
+
+/*need to add button for font size change */
+
+
+html {
+    background-color: #8484ef;
+}
+body {
+    font-family: ubuntu, verdana, helvtetica, sens-serif;
+    background-color: #ffffff;
+    max-width: 55em;
+    padding: 0.5em;
+    margin: 0.5em auto;
+    border: 0.25em solid #000;
+    border-radius: 2em;
+}
+
+li {
+    font-size: 100%;
+    text-decoration: none;
+}
+
+
+#TOC ul{
+    color: rgb(0, 0, 0);
+    background-color: #dddddd;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+#TOC {
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+#TOC > ul {
+    color:black;
+    background-color: #dddddd;
+    border: 0.25em solid #bbbbbb;
+    border-radius: 0.9em;
+}
+
+/* sets up hanging indents on TOC */
+
+#TOC li { text-indent: -1.2em}
+#TOC li li { text-indent: -1.7em}
+#TOC li li li { text-indent: -2.7em}
+
+
+#TOC .toc-number {
+    margin-right: 0.3em;
+    font-weight: bold;
+}
+
+#TOC a {
+    text-decoration: none;
+}
+
+#TOC a:hover {
+    color:black;
+    background-color: #eeeeff;
+    outline: solid 0.1em;
+}
+
+/* insert heading TOC */
+
+div #TOC > ul:before, nav#TOC > ul:before {
+    margin-left: -4%;
+    font-size: 150%;
+    content: "Table of Contents";
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.title {
+    font-size: 180%;
+    margin: 0 0 0.3em 0;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    font-variant: small-caps;
+    padding: 0.5em;
+    background-color: #d4c494;
+    border: 0.1em solid #ece0a8dc;
+    border-radius: 0.9em 0.9em;
+    text-align: center;
+    text-indent:0;
+}
+
+h1 {
+    color: #c60000;
+    font-size: 150%;
+    background-color: #ffde94;
+    border: 0.1em solid #cead63;
+    border-radius: 0.4em;
+    padding: 0.1em;
+    padding-left: 1.6em;
+    text-indent: -1.1em;
+    clear: both;
+}
+
+h2 {
+
+    color: #900000;
+    font-size: 120%;
+    background-color: #ffde94;
+    border: 0.1em solid #cead63;
+    border-radius: 0.4em;
+    margin-left: 0.8em;
+    padding-left: 2.3em;
+    text-indent: -2.0em;
+    clear: both;
+
+}
+
+blockquote {
+    color: black;
+    background-color: #eeeecc;
+    border: 0.1em solid #e3e3b3;
+    border-radius: 0.4em;
+    font-style: italic;
+    padding-top: 0em;
+    padding-left: 0.5em;
+    padding-right: 0.3em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header-section-number {
+    margin-right: 0.5em;
+}

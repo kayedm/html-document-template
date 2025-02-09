@@ -3,7 +3,7 @@
 
 
 html {
-    background-color: #8484ef;
+    background-color: #afafaf;
 }
 body {
     font-family: ubuntu, verdana, helvtetica, sens-serif;
@@ -81,17 +81,17 @@ div #TOC > ul:before, nav#TOC > ul:before {
     font-variant: small-caps;
     padding: 0.5em;
     background-color: #d4c494;
-    border: 0.1em solid #ece0a8dc;
+    border: 0.1em solid #d1d3bbdc;
     border-radius: 0.9em 0.9em;
     text-align: center;
     text-indent:0;
 }
 
 h1 {
-    color: #c60000;
+    color: #990000;
     font-size: 150%;
-    background-color: #ffde94;
-    border: 0.1em solid #cead63;
+    background-color: #eeddaa;
+    border: 0.1em solid #ddcc66;
     border-radius: 0.4em;
     padding: 0.1em;
     padding-left: 1.6em;
@@ -101,10 +101,10 @@ h1 {
 
 h2 {
 
-    color: #900000;
+    color: #660000;
     font-size: 120%;
-    background-color: #ffde94;
-    border: 0.1em solid #cead63;
+    background-color: #eeddaa;
+    border: 0.1em solid #ddcc66;
     border-radius: 0.4em;
     margin-left: 0.8em;
     padding-left: 2.3em;
